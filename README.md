@@ -31,9 +31,8 @@ w0 is averaged from all support vectors.
 
 Map the predictions to labels and compute BAC and confusion matrix
 
-Main script: Bring it all together
+The main SVM script brings it all together
 
-Write a main script that implements the following:
 a. Read the training data.
 b. Find alphas.
 c. Find the weight vector and w0 from alphas.  
