@@ -17,17 +17,17 @@ This function calls fmincon, fmincon requires a function handler to the function
 
 # fmincon(objfunc,alpha0,…)
 
-# Find the weights and w0:
+Find the weights and w0:
 
 # function [weights w0] = FindWeights(alphas,X,target)
 
 w0 is averaged from all support vectors. 
 
-# Predict labels for SVM
+Predict labels for SVM
 
 # function [predictions predictedLabels] = predictLabels(X,weights,w0)
 
-# Evaluate the model
+Evaluate the model
 
 Map the predictions to labels and compute BAC and confusion matrix
 
