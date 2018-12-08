@@ -34,8 +34,13 @@ Map the predictions to labels and compute BAC and confusion matrix
 The main SVM script brings it all together
 
 a. Read the training data.
+
 b. Find alphas.
-c. Find the weight vector and w0 from alphas.  
+
+c. Find the weight vector and w0 from alphas. 
+
 d. Find the predictions using the weights and w0 and determine a way to map these predictions to predicted labels.  So for example if your prediction is 10, then how will you map it to a label?
+
 e. Plot the data along with the hyperplane using the given function plotSVMData.
+
 f. Determine the confusion matrix and BAC for your model.
